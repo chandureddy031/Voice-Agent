@@ -1,0 +1,8 @@
+# Voice agent core: streaming pipeline, interruptions, NVIDIA STT/LLM/TTS,
+# Silero VAD, browser WebRTC transport, dev runner
+pipecat-ai[nvidia,silero,webrtc,runner]==1.12.0
+
+# Optional: free local TTS fallback (runs on CPU) — uncomment if NVIDIA TTS is slow/unavailable
+# pipecat-ai[kokoro]==1.12.0
+
+python-dotenv
